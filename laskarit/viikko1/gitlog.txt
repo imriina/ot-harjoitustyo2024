@@ -1,0 +1,115 @@
+imriina@lx2-fuxi007:~/ohte_viikko1/tiedostoja$ git log --stat | cat
+commit d3a9f5ce9fd34c0c600522e1d1d7bb9c09b416d7
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 14:40:54 2023 +0200
+
+    eka poisto ja toka nimi
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 84ab6b06878d52351ebced9544e97b60fd10b388
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 14:37:24 2023 +0200
+
+    kansio ja uudet tiedostot
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ace161ecdc0412a68feff5d014032147d1128cd4
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 14:08:25 2023 +0200
+
+    muokkaus eka ja kolmas
+
+ eka.txt    | 28 +++-------------------------
+ kolmas.txt |  3 ++-
+ 2 files changed, 5 insertions(+), 26 deletions(-)
+
+commit eb5eab0ea78feceab56ab3de509fca71967f4ce4
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 14:03:30 2023 +0200
+
+    eka uusi nimi
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f387bb13190dc516f4d25455e5bd241dd288f321
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 14:01:05 2023 +0200
+
+    toisen tie poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 782f6213202b958d673ee812a7668b3176cadab1
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:55:53 2023 +0200
+
+    poistoa ja lisaysta toeidsotoon
+
+ tiedosto.txt | 24 ++++++++++++++++++++++--
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+
+commit ec774dea6ed53c2d3b496ebb73e980d611930950
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:52:32 2023 +0200
+
+    kopionti tiedostoon
+
+ tiedosto.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 7abb71f37053c7858ecdded625133e7f729b8b55
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:39:47 2023 +0200
+
+    uus kansio ja tiedo
+
+ stuff/jokutiedo.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f9e1542351dad88d57c2fcd3cc2e234ba451d211
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:37:14 2023 +0200
+
+    muokkaukset
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 6306c4cd0debeb3e57e317e8307d644464cdc4ec
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:33:34 2023 +0200
+
+    uuden lisays
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3da0c94edc99ab4218c748f7b8160d2feb2beabb
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:27:53 2023 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 6a94b7daaeec03f140551e9de15a4b33b628be0a
+Author: Riina Immonen <riina.immonen@helsinki.fi>
+Date:   Wed Mar 15 13:22:58 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ 
