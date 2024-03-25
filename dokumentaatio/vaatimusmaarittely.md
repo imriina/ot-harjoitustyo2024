@@ -1,7 +1,8 @@
 # Vaatimusmäärittely
 
 ### Sovelluksen tarkoitus
- Riinan tietovisa ohjelmisto
+Riinan tietovisa ohjelmisto
+
 Sovellus on nimensä mukaan tietovisa, jossa vaihtoehdot annetaan x määränä, joista pelaaja voi valita mielestään oikean vastauksen. Pelaaja saa ilmoituksen, onko kyseinen vastaus oikein vai väärin. Mikäli vastaus on oikein saa pelaaja pisteen. Siirrytään seuraavaan kysymykseen jne. Pelin lopussa pelaaja saa nähdä pisteensä ja oikeat vastaukset. Pelissä on leaderboard.
 
 
