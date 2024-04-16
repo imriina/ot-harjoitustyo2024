@@ -1,20 +1,13 @@
 import uuid
 
+from entities.user import User
+from repositories.quiz_repo import QuizRepository
+
 class Quiz:
-
-    def __init__(self, question_text, options, correct_answer):
-
-        self.question_text = question_text
-        self.options = options
-        self.correct_answer = correct_answer
-
-
-   
-    def __str__(self):
-        
-        return f"{self.question_text}\nOptions: {', '.join(self.options)}"
+    def __init__(self, username, questions_file_path):
+        self.username = User(username)
+        self.quiz_repo = QuizRepository(questions_file_path)
+        self.current_question = None
+        self.is_game_over = False
     
-
-    def check_answer(self, selected_index):
-
-        return selected_index == self.correct_answer
+ 

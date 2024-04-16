@@ -23,7 +23,9 @@ def create_tables(connection):
                    );
                    """)
 
+
     connection.commit()
+
 
 def initialize_database():
 
