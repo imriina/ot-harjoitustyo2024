@@ -1,18 +1,20 @@
 import uuid
 
 class Quiz:
-    """Luokka, joka kuvaa yksittäistä tehtävää
 
-    Attributes:
-        content: Merkkijonoarvo, joka kuvaa tehtävän sisältöä.
-        done: Boolean-arvo, joka kuvastaa, onko tehtävä jo tehty.
-        user: User-olio, joka kuvaa tehtävän omistajaa.
-        todo_id: Merkkijonoarvo, joku kuvaa tehtävän id:tä.
-    """
+    def __init__(self, question_text, options, correct_answer):
 
-    def __init__(self, content, done=False, user=None, todo_id=None):
+        self.question_text = question_text
+        self.options = options
+        self.correct_answer = correct_answer
 
-        self.content = content
-        self.done = done
-        self.user = user
-        self.id = todo_id or str(uuid.uuid4())
+
+   
+    def __str__(self):
+        
+        return f"{self.question_text}\nOptions: {', '.join(self.options)}"
+    
+
+    def check_answer(self, selected_index):
+
+        return selected_index == self.correct_answer

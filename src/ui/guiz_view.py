@@ -1,8 +1,9 @@
 from tkinter import ttk
 class QuizView:
-    def __init__(self, root):
+    def __init__(self, root, backbutton_command):
         self._root = root
         self._frame = None
+        self._backbutton_command = backbutton_command
 
         self._initialize()
 
@@ -11,7 +12,9 @@ class QuizView:
 
 
         header = ttk.Label(master=self._frame, text="tähän tulee")
- 
+        backbutton = ttk.Button(master=self._frame, text="Back", command=self._backbutton_command)
+
+        backbutton.grid(row=5, column=5)
         header.grid(row=0, column=0)
 
     def pack(self):
